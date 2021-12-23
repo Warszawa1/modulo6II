@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Algoritmos II</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>Encryption / Decryption tool 🔐 </h1>
+</div>
+</body>
+    <div id="field1">
+    <label for= "entry">Entrada de tu texto: </label></br>    
+    <textarea name="txtArea" id="txtArea" rows="10" cols="45" placeholder="Type something to encrypt"></textarea>
+</br>
+
+    <!--<button id="btn1"    onclick="abc()" >enter</button> -->
+    <button type="submit" id= "btnE"  onclick="encriptar()"> ENCRYPT ⏬ </button>
+</div>
+</br>
+</br>
+<div id="field2">
+    <button type="submit" id = "btnD" onclick="decryptMessage"> DECRYPT ⏫ </button>
+    <label for= "entry">Salida del texto encriptado: </label></br>  
+    <textarea name="txtArea2" id="result" rows="10" cols="45" placeholder="Your message after Encryption"></textarea>
+</br>
+</div>
+<div id="result"></div>
+ 
+
+    
+<script src= "script.js" ></script>
+</body>
+</html>
